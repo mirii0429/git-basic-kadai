@@ -3,12 +3,7 @@ miriimuto@Miriis-MacBook-Air GitHub Homework % mkdir git_challenge
 miriimuto@Miriis-MacBook-Air GitHub Homework % cd git_challenge
 miriimuto@Miriis-MacBook-Air git_challenge % git init
 Initialized empty Git repository in /Users/miriimuto/Downloads/GitHub Homework/git_challenge/.git/
-miriimuto@Miriis-MacBook-Air git_challenge % echo "Hello, world!" >> hello_world
-dquote> 
-dquote> 
-miriimuto@Miriis-MacBook-Air git_challenge % echo "Hello, world!" >> hello_world 
-dquote> 
-miriimuto@Miriis-MacBook-Air git_challenge % echo "" >> hello_world
+miriimuto@Miriis-MacBook-Air git_challenge % echo 'Hello, world!' >> hello_world
 miriimuto@Miriis-MacBook-Air git_challenge % git add .
 miriimuto@Miriis-MacBook-Air git_challenge % git commit -m "1回目のコミット"
 [main (root-commit) f4f3312] 1回目のコミット
