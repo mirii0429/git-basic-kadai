@@ -1,0 +1,25 @@
+miriimuto@Miriis-MacBook-Air ~ % cd '/Users/miriimuto/Downloads/GitHub Homework'
+miriimuto@Miriis-MacBook-Air GitHub Homework % mkdir git_challenge
+miriimuto@Miriis-MacBook-Air GitHub Homework % cd git_challenge
+miriimuto@Miriis-MacBook-Air git_challenge % git init
+Initialized empty Git repository in /Users/miriimuto/Downloads/GitHub Homework/git_challenge/.git/
+miriimuto@Miriis-MacBook-Air git_challenge % echo "Hello, world!" >> hello_world
+dquote> 
+dquote> 
+miriimuto@Miriis-MacBook-Air git_challenge % echo "Hello, world!" >> hello_world 
+dquote> 
+miriimuto@Miriis-MacBook-Air git_challenge % echo "" >> hello_world
+miriimuto@Miriis-MacBook-Air git_challenge % git add .
+miriimuto@Miriis-MacBook-Air git_challenge % git commit -m "1回目のコミット"
+[main (root-commit) f4f3312] 1回目のコミット
+ 2 files changed, 2 insertions(+)
+ create mode 100644 .gitignore.txt
+ create mode 100644 hello_world
+miriimuto@Miriis-MacBook-Air git_challenge % git add .
+miriimuto@Miriis-MacBook-Air git_challenge % git commit -m "日本語訳を追記"
+[main df00bfc] 日本語訳を追記
+ 1 file changed, 1 insertion(+)
+miriimuto@Miriis-MacBook-Air git_challenge % git log --oneline
+df00bfc (HEAD -> main) 日本語訳を追記
+miriimuto@Miriis-MacBook-Air git_challenge % 
+
